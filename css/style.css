@@ -130,6 +130,9 @@ a:focus {
   .navbar-custom.top-nav-collapse a {
     color: black;
   }
+  .navbar-custom.top-nav-collapse li a:hover {
+    color: rgba(150, 150, 150, 1);
+  }
 }
 .intro {
   display: table;
