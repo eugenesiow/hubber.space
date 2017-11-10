@@ -57,11 +57,11 @@ a:focus {
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   text-transform: uppercase;
   font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background-color: rgba(130, 184, 246, .9);
+  background-color: white;
 }
 .navbar-custom .navbar-toggle {
-  color: white;
-  background-color: rgba(130, 184, 246, .9);
+  color: black;
+  background-color: white;
   font-size: 12px;
 }
 .navbar-custom .navbar-toggle:focus,
@@ -141,7 +141,7 @@ a:focus {
   padding: 100px 0;
   text-align: center;
   color: white;
-  background-color: rgb(130, 184, 246);
+  background-color: white;
   background: url(../img/bg1.png) no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -358,4 +358,9 @@ section.features .feature-item h3 {
 }
 .built-in-heart {
   color: #F27C00;
+}
+@media (max-width: 425px) {
+  .navbar-custom a{
+    color: #000;
+  }
 }
